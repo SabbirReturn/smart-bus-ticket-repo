@@ -129,3 +129,26 @@
   .btn_primary:hover{
     border: 2px solid blue;
   }
+  .user{
+    position: relative;
+    top: 115px;
+  }
+  .userStyle{
+    border-bottom: 3px solid #1DD100;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  @media screen and (max-width:576px){
+    .user{
+        position: relative;
+        top: -20px;
+      }
+  }
+  @media screen and (min-width:577px) and (max-width:896px){
+    .user{
+        position: relative;
+        top: -8px;
+      }
+  }
