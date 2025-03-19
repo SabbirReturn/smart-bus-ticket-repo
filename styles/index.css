@@ -105,3 +105,27 @@
     font-weight: 900;
     font-style: normal;
   }
+
+  /* position */
+  .firstCard{
+    position: relative;
+    left: 15px;
+  }
+  .first-image{
+    position: relative;
+    top: -5px;
+  }
+  .secondCard{
+    position: relative;
+    left: -15px;
+  }
+
+  /* btn primary */
+  .btn_primary{
+    border: 2px solid greenyellow;
+    height: 50px;
+    width: 150px;
+  }
+  .btn_primary:hover{
+    border: 2px solid blue;
+  }
