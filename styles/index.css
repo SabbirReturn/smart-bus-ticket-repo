@@ -129,6 +129,21 @@
   .btn_primary:hover{
     border: 2px solid blue;
   }
+
+  /* btn_secondary */
+  .btn_secondary{
+    height: 50px;
+    width: 170px;
+    background-color: #1DD10026;
+  }
+
+  .destination{
+    height: 30px;
+    width: 210px;
+    border: 2px solid red;
+    border: none;
+    background-color: #0307120D;
+  }
   .user{
     position: relative;
     top: 115px;
@@ -157,10 +172,19 @@
         position: relative;
         top: -20px;
       }
+      .destination{
+        height: 85px;
+        width: 108px;
+      }
   }
   @media screen and (min-width:577px) and (max-width:896px){
     .user{
         position: relative;
         top: -8px;
+      }
+      .destination{
+        height: 85px;
+        width: 108px;
+        /* margin-right: 30px; */
       }
   }
