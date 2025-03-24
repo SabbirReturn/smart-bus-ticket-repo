@@ -159,7 +159,10 @@
     border-top: 2px solid #1DD100;
   }
 
-
+  .grid-container {
+    display: grid;
+    grid-template-columns: 25px 112px 112px 112px 112px;
+  }
 
 
 
@@ -175,6 +178,10 @@
       .destination{
         height: 85px;
         width: 108px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 32px 87px 87px 87px 87px;
       }
   }
   @media screen and (min-width:577px) and (max-width:896px){
