@@ -167,7 +167,12 @@ hr{
     grid-template-columns: 25px 110px 111px 111px 111px;
   }
 
-
+  input{
+    border: 2px solid #0307121A;
+    height: 50px;
+    width: 290px;
+    border-radius: 10px;
+  }
 
 
 
@@ -185,6 +190,10 @@ hr{
       .grid-container {
         display: grid;
         grid-template-columns: 30px 83px 83px 83px 83px;
+      }
+      input{
+        height: 50px;
+        width: 360px;
       }
   }
   @media screen and (min-width:577px) and (max-width:896px){
